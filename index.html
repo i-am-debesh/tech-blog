@@ -8,13 +8,82 @@
 <style>
     body{
         background-color: rgb(154, 132, 153);
+        
     }
     h1{
         text-align: center;
         color: white;
     }
+    .product {
+        display: block;
+        text-align: center;
+        justify-content: center;
+        margin: 3rem;
+    }
+    .product-img{
+        height: 300px;
+        width: 300px;
+        border-radius: 12px;
+        box-shadow: 2px 2px 5px rgba(49, 48, 48, 0.486);
+    }
+    .buy-btn{
+        border: none;
+        background-color: #5d4164;
+        color: white;
+        padding: 14px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+
+    }
+    .lists {
+        
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .btn {
+        display: flex;
+        /* background-color: red; */
+        width: 100%;
+        justify-content: center;
+        
+    }
+   
 </style>
 <body>
-    <h1>My Blog Site</h1>
+    <div class="heading">
+        <h1>My Blog Site</h1>
+    </div>
+    <div class="lists">
+        <div class="product">
+            <div class="img">
+                <img src="images/tws/OnePlusNordBuds2r.jpg" alt="" class="product-img">
+            </div>
+
+            <div class="btn">
+                <a href="https://amzn.to/4jtHI6q" class="buy-btn">Buy now</a>
+            </div>
+        </div>
+
+        <div class="product">
+            <div class="img">
+                <img src="images/tws/OnePlusNordBuds2r.jpg" alt="" class="product-img">
+            </div>
+
+            <div class="btn">
+                <button class="buy-btn">Buy now</button>
+            </div>
+        </div>  
+        <div class="product">
+            <div class="img">
+                <img src="images/tws/OnePlusNordBuds2r.jpg" alt="" class="product-img">
+            </div>
+
+            <div class="btn">
+                <button class="buy-btn">Buy now</button>
+            </div>
+        </div>  
+    </div>
+    
 </body>
 </html>
